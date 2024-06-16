@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>My Dear Hubby.</strong>
+                        <p>Happy Anniversary Chinnuuuu.
+                           Its been already 2 years and many more years yet to come.                         
+I wanna ask you sorry❤️ for everything I have done till today adralu last 2-3 months inda madid yala tappge kshamsi and Thank You❤️ for being in my life.<br>I Love You❤️.<br>I want to tell you some thing please click below</p>
+                    </div>
+                </div>
+            </div>
+<p style=margin-bottom:-11%;margin-right:-51%;><a href="sr.html">click here</a></p>
+
+            <div class="heart"></div>
+        </div>
+
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
